@@ -1,3 +1,88 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/*  RUBIK FONTS */
+
+@font-face {
+    font-family: "Rubik-Italic";
+    src: url("./assets/fonts/Rubik/Rubik-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Regular";
+    src: url("./assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url("./assets/fonts/Rubik/Rubik-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Medium-Italic";
+    src: url("./assets/fonts/Rubik/Rubik-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-SemiBold";
+    src: url("./assets/fonts/Rubik/Rubik-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-SemiBold-Italic";
+    src: url("./assets/fonts/Rubik/Rubik-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("./assets/fonts/Rubik/Rubik-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Rubik-Bold-Italic";
+    src: url("./assets/fonts/Rubik/Rubik-BoldItalic.ttf");
+}
+
+
+/* Poppins Fonts */
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("./assets/fonts/Poppins/Poppins-Italic.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("./assets/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("./assets/fonts/Poppins/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium-Italic";
+    src: url("./assets/fonts/Poppins/Poppins-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold-Italic";
+    src: url("./assets/fonts/Poppins/Poppins-SemiBoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("./assets/fonts/Poppins/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold-Italic";
+    src: url("./assets/fonts/Poppins/Poppins-BoldItalic.ttf");
+}
