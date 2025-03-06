@@ -1,9 +1,13 @@
 import { createBrowserRouter } from 'react-router-dom';
+import NotFound from './other/NotFound';
+import Home from './home/Home';
 export const routes = createBrowserRouter([
     {
         path: '*',
-        element: (
-            <div className='text-3xl text-red-500'>404 page not found</div>
-        ),
+        element: <NotFound />,
     },
+    {
+        path : '/',
+        element : <Home />
+    }
 ]);
