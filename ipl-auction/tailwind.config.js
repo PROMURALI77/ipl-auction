@@ -4,14 +4,14 @@ export default {
     content: ["./index.html",
         "./src/**/*.{js,ts,jsx,tsx}", "./node_modules/@material-tailwind/react/**/*.{js,ts,jsx,tsx}"],
     theme: {
-        colors: {
-            primary: "#2563eb",
-            secondary: "#4338ca",
-            litegrey: '#2B3139',
-            darkgrey: '#1E2329',
-            accent: '#181A20',
-        },
         extend: {
+            colors: {
+                primary: "#2563eb",
+                secondary: "#4338ca",
+                litegrey: '#2B3139',
+                darkgrey: '#1E2329',
+                accent: '#181A20',
+            },
             fontFamily: {
                 rubik: ['Rubik-Regular', 'sans-serif'],
                 'rubik-italic': ['Rubik-Italic', 'sans-serif'],
