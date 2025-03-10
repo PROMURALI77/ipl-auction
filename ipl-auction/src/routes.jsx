@@ -3,7 +3,6 @@ import NotFound from './other/NotFound';
 import Home from './home/Home';
 import Auction from './dashboard/Auction';
 import Admin from './admin/Admin';
-import Login from './auth/Login';
 
 export const routes = createBrowserRouter([
     {
@@ -22,8 +21,4 @@ export const routes = createBrowserRouter([
         path : '/admin',
         element : <Admin />
     },
-    {
-        path : '/login',
-        element : <Login />
-    }
 ]);
