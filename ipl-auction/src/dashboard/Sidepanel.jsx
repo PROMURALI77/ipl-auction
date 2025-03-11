@@ -1,43 +1,30 @@
-import { useEffect, useState } from "react"
+import { useEffect, useState } from "react";
 
-const  tl = [
-  {
-    name  : "murali",
-    balance : "100.000",
-  },
-  {
-    name  : "murali2",
-    balance : "100.000",
-  },
-  {
-    name  : "murali3",
-    balance : "100.000",
-  },
-  {
-    name  : "murali4",
-    balance : "100.000",
-  },
-]
-
-const Sidepanel = () => {
-  const [teamlist, setTeamList] = useState([])
+const Sidepanel = ({Teams}) => {
+  const [teamlist, setTeamList] = useState([]);
   useEffect(() => {
-    const teams = tl //localStorage.getItem("teams")
-    setTeamList(teams)
-  },[])
+    const teams = Teams //localStorage.getItem("teams")
+    setTeamList(teams);
+  });
   return (
     <div className="text-black">
-      { teamlist ?  (
+      {teamlist ? (
         teamlist.map((teams, index) => (
-          <div key={index} className="bg-sky-500 flex items-start justify-center px-3 py-2 m-1 rounded-md">{
-            <div className="text-white">{teams.name}</div>
-          }</div>
+          <div
+            key={index}
+            className="bg-sky-600 flex items-start justify-between px-2 py-4 my-2.5 mx-1.5 rounded-md"
+          >
+            <h1 className="text-white/90 font-rubik-medium text-xl uppercase">
+              {teams.name}
+            </h1>
+            <h1 className="text-white/90">balance : {teams.balance} INR</h1>
+          </div>
         ))
-      ) : ( <h1>LOADING TEAMS</h1> ) 
-
-      }
+      ) : (
+        <h1>LOADING TEAMS</h1>
+      )}
     </div>
-  )
-}
+  );
+};
 
-export default Sidepanel
+export default Sidepanel;
